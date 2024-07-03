@@ -4,7 +4,7 @@
       "id": "test-deploy",
       "description" : "This is a test app",
       "name" : "Test Application",
-      "repository": "",
+      "repository": "https://github.com/jdubrick-ai/test-local-0703-02",
       "ref": "v1.1.3",
       "icon": "natural-language-processing",
       "categories": [
