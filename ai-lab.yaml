@@ -5,8 +5,8 @@ application:
   description: AI Application Being Locally Deployed
   containers:
     - name: llamacpp-server
-      contextdir: https://github.com/containers/ai-lab-recipes/tree/main/model_servers/llamacpp_python
-      containerfile: https://github.com/containers/ai-lab-recipes/blob/main/model_servers/llamacpp_python/base/Containerfile
+      contextdir: ./deployment/llamacpp_python
+      containerfile: ./base/Containerfile
       model-service: true
       backend:
         - llama
